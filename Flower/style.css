@@ -1,0 +1,198 @@
+                                               /* navbar*/
+body{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    width: 100%;
+    height: 70px;
+  
+}
+.navbar p{
+    font-size: 40px;
+    font-family:Comfortaa;
+    float: left;
+    margin-top: 0;
+    padding: 10px;
+    color: #21455e;
+    
+}
+.navbar ul{
+    list-style-type: none;  /* لازالة النقاط عن الليست */
+    float: left;
+    margin-left: 47%;
+    width: 40%;
+    margin-top: 30px;
+}
+.navbar ul li{
+    display: inline;  /* يعني قم بترتيب العناصر على نفس السطر بجانب بعض */
+    margin-left: 3%;   /* لاضافة مساحة بين العناصر */
+    font-family:Comfortaa;
+    color: #21455e;
+
+}
+.navbar ul li:hover{
+    color: red;
+}
+                                                 /* header*/
+
+.header{
+    width: 100%;
+    height: 600px;
+    background-image: url(image/im.jpg);  /* تظهر الصورة مكررة*/
+    background-size: 100% 500px;   /* لمنع تكرار الصورة */
+  position: relative;
+  
+  
+}           
+.opacity{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.6;
+}           
+.header p{
+    position: absolute;
+    top:150px;
+    left: 21px;
+    color: white;
+    font-family:Comfortaa;
+    font-size: 50px;
+    text-align: center;
+    border-bottom: solid rgb(139, 44, 44);
+    padding: 10px;
+    margin-left: 350px;
+
+}
+
+                                         /* about*/
+
+.about{
+    padding: 80px 10px 20px 60px;
+}              
+.about p{
+    width:45%;
+    font-size:20px;
+    font-family:Cairo;
+    float:left;
+   
+}
+.about p span{
+    display: block;
+    font-family: comfortaa;
+    font-size: 40px;
+    color: #21455e;
+    border-bottom: solid thin red;
+    width: 33%;
+    margin-bottom: 20px;
+}
+.about img{
+    width: 45%;
+    height: 300px;
+    margin-left: 6%;
+    box-shadow: 10px 0 20px black;
+}
+
+                        /* services */
+
+.services{
+    padding: 80px 0;
+    background-image: url(image/im2.jpg);
+    background-size: cover;
+    position: relative;
+    height: 400px;
+    margin-bottom: 3%;
+}
+.services .opacity{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.7;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.services span{
+    color: white;
+    font-size: 45px;
+    font-family:comfortaa ;
+    position: absolute;
+    left: 40%;
+    border-bottom: solid thin red;
+    z-index: 2;  /* عشان الكلمة موجودة تحت الشفافية فهاي الخاصية بتخلي الاسم فوق الشفافية اي يزيد من وضوحه */
+
+}
+.services .opacity .item{
+    width: 20%;
+    height: 300px;
+    color: white;
+    font-family: Karla;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 300px;
+    margin-left: 4%;
+    float: left;
+}
+.services .opacity .item i{
+    background-color:rgb(151, 14, 14);
+    padding: 10%;
+    
+}
+
+                                   /*  ourworks*/
+
+.ourworks span{
+    color: #21455e;
+    font-size: 45px;
+    font-family:comfortaa ;
+    border-bottom: solid thin red;
+    margin-left:38%;
+    
+}
+.ourworks img{
+    width: 25%;
+    height: 250px;
+    margin: 3% 0 0 6%;
+}
+
+                              /* contact us */
+.contact{
+    padding: 100px 0;
+
+}   
+.contact .item{
+    width: 25%;
+    height: 70px;
+    float: left;
+    box-shadow: 0 0 20px black;
+    margin-left: 6%;
+    text-align: center;
+    font-family:comfortaa;
+    padding-top: 30px;
+    font-size: 20px;
+    color: #21455e;
+    border-radius: 10px;
+}  
+ .contact ul{
+     list-style-type: none;
+     margin-top: 200px;
+     margin-left: 37%;
+
+ }                         
+ .contact ul li{
+     display: inline;
+     margin-left: 4%;
+     color: black;
+ }
+ .contact ul li:hover a{
+     color: red;
+ }
+ .copyrite{
+     width: 100%;
+     height: 30px;
+     background-color: black;
+     color: white;
+     padding: 10px 0 ;
+     text-align: center;
+     font-family: Karle;
+ }
