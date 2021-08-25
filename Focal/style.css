@@ -1,0 +1,528 @@
+/* start main rulez */
+body{
+height: 4000px;
+padding: 0;
+margin: 0;
+}
+
+.container{        /* تستخدم لجعل تصميم الصفحة بالوسط */
+    width:1170px;
+    margin: auto;
+}
+.clearfix{
+    clear: both;
+}
+
+
+
+
+
+
+.header .slider{
+    background-image:url(slider.jpg) ;
+    background-size: cover;
+    height: 600px;
+    background-color: #EEE;
+}
+.header .slider .intro{
+   padding-top: 200px;
+    height: 600px;
+    text-align: center;
+    color: #FFF;
+}
+.header .slider .intro h2{
+    margin: 0 auto;
+    font-size: 50px;
+    width: 600px;
+    border-top: 4px solid #FFF;
+    border-bottom: 4px solid #FFF;
+}
+.header .slider .intro button{
+    background: none;
+    margin-top: 30px;
+    font-size: 20px;
+    border: 1px solid #FFF;
+    color: #FFF;
+    font-weight: bold;
+    padding: 10px 30px;
+}
+ .navbar{
+    background-color:#252F31;
+    color: #fff;
+    overflow: hidden;
+}
+.navbar h2{
+    float: left;
+    text-transform: uppercase;  /* لجعل الحروف كابيتال */
+}
+.navbar h2 span{
+    color: #2ecc71;
+}
+.navbar ul{
+    list-style-type: none;
+    padding-left: 0;
+    overflow: hidden;
+    float: right;
+}
+.navbar ul li{
+    float: left;
+    padding: 10px;
+}
+.navbar ul li a{
+    color: #FFF;
+    text-decoration: none;
+}
+.navbar ul li.active a ,
+.navbar ul li a:hover{
+    color: #2ecc71;
+}
+
+
+
+
+
+
+
+
+
+.features{
+    overflow: hidden;
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+.features .feat{
+    float: left;
+    width: 33.33333%;
+    height: 150px;
+}
+.features .feat h2{
+    color: #555;
+}
+.features .feat p{
+    line-height: 1.7;
+    color: #888;
+    margin-left: 3px;
+}
+
+
+
+
+
+
+
+
+.aboutme{
+    background-color: #F2F2F2;
+    overflow: hidden;
+}
+.aboutme .image{
+   float: left;
+    width: 40%;
+}
+.aboutme .image img{
+    width: 100%;
+    border-radius : 50% ;    
+}
+.aboutme .info{
+    float: left;
+    width: 60%;
+}
+.aboutme .info h2{
+    margin: 25px 0 20px 40px;
+    color: #555;
+    text-transform: uppercase;
+}
+.aboutme .info > p{
+  margin: 0 0 10px 40px;
+}
+.aboutme .info > p {
+    margin-top: 30px;
+  }
+  .aboutme .info p{
+    line-height: 1.6;
+    color: #888;
+  } 
+.aboutme .info .hobbies{
+    overflow: hidden;
+    margin: 15px 0 0 40px;
+}
+.aboutme .info .hobbies .content{          /* >   يعني اول عنصر من الديف */
+    float: left;
+    width: 50%;
+    min-height: 100px;
+    overflow: hidden;
+}
+.aboutme .info .hobbies .content h3{
+    color: #555;
+}
+.aboutme .info .hobbies .content .icon{
+    float: left;
+    width: 9%;
+     margin-right: 5%;
+}
+.aboutme .info .hobbies .content .icon img{
+    max-width: 100%;
+    margin: 20px 10px 0 0;
+}
+.aboutme .info .hobbies .content .text{
+    float: left;
+    width: 86%;
+}
+.aboutme .info .hobbies .content .text p{
+    margin-top: 0;
+}
+.aboutme .info .hobbies .content .text h3{
+    margin-bottom: 5px;
+}
+
+
+
+
+
+
+
+
+.myskills{
+    padding-top: 50px;
+    padding-bottom: 30px;
+    overflow: hidden;
+}
+.myskills .skills , .myskills .progress{
+    width: 50%;
+    float: left;
+
+}
+.myskills .skills h2{
+    margin: 25px 0 20px 40px;
+    color: #555;
+}
+.myskills .skills p{
+margin: 0 0 10px 40px;
+line-height: 1.6;
+color: #666;
+}
+.myskills .skills button{
+    background:none;
+    border:3px solid #2DCC70;
+    padding:10px 30px;
+    color:#2DCC70;
+    margin-left: 40px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+.myskills .progress .tech h3{
+color: #555;
+
+}
+.myskills .progress .tech {
+    margin-left: 50px;
+}
+.myskills .progress .tech div{
+background-color:#F2F2F2 ;
+height: 25px;
+}
+.myskills .progress .tech div span{
+    background-color:#2DCC70 ;
+    height: 25px;
+    display: block;
+    line-height: 25px;
+    text-align: right;
+    color: #FFF;
+}
+
+
+
+
+
+
+
+
+
+.resume{
+    background-color: #F2F2F2;
+    padding-top: 50px;
+    padding-bottom: 70px;
+    text-align: center;
+}
+.resume h2{
+    text-transform: uppercase;
+    font-weight: bold;
+    color:#555;
+}
+.resume p{
+    line-height: 1.7;
+    color: #666;
+    padding: 0 70px;
+}
+.resume button{
+    background:none;
+    border:3px solid #2DCC70;
+    padding:10px 30px;
+    color:#2DCC70;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+.myeducation {
+    padding-top:30px;
+    padding-bottom:30px;
+    overflow:hidden;
+}
+.myeducation hr {
+    margin:20px 0;
+    background-color:#999;
+    height:1px;
+    border:0;
+}
+.myeducation .main {
+    width:50%;
+    margin-right:5%;
+    float: left;
+}
+.myeducation .main h2 {
+    margin:25px 0 20px 40px;
+}
+.myeducation .main p {
+    margin:0 0 10px 40px;
+    line-height: 1.6;
+    color: #666;
+}
+.myeducation .main p:last-of-type {
+    margin-top:25px;
+}
+.myeducation .exp{
+    width: 45%;
+    float: right;
+}
+.myeducation .exp span{
+    display: block;
+    margin-bottom: 10px;
+}
+.myeducation .exp span:first-of-type {
+color: #999;
+}
+.myeducation .exp span:last-of-type {
+    background-color: #2DCC70;
+    color: #FFF;
+    display: inline-block;
+    padding: 4px 10px;
+}
+.myeducation .exp hr{
+    margin: 20px 0;
+    background-color: #999;
+    height: 1px;
+    border: 0;
+}
+.myeducation .exp p{
+    line-height: 1.7;
+    color: #777;
+}
+
+
+
+
+
+
+
+
+
+
+
+.testimonials{
+    background-color: #F2F2F2;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+.testimonials q{
+    line-height: 1.8;
+    color: #888;
+    font-size: 18px;
+    font-style: italic;
+    font-family: Arial , Tahoma ;
+}
+.testimonials h3{
+    color: #666;
+    margin-top: 30px;
+
+}
+.testimonials ul{
+    list-style-type: none;
+    padding-left: 0;
+    text-align: center;
+}
+.testimonials ul li {
+    width:7px;
+    height:7px;
+   border:2px solid #2DCC70;
+   display:inline-block;
+   cursor: pointer;
+}
+.testimonials ul li .active {
+    background-color:#2DCC70;
+    }
+.testimonials ul li:hover{
+    background-color:#2DCC70;
+}
+
+
+
+
+
+
+
+
+
+
+.portfolio{
+    padding-top: 50px;
+    padding-bottom: 70px;
+    text-align: center;
+}
+.portfolio h2{
+    color: #777;
+}
+.portfolio p{
+line-height: 1.7;
+color: #666;
+margin-bottom: 30px;
+}
+
+.portfolio .ourwork{
+    overflow: hidden;
+}
+.portfolio .ourwork > div{
+    float: left;
+    width: 33.333333%;
+    margin-bottom: 10px;
+
+}
+.portfolio .ourwork > div img{
+    width: 75%;
+    margin: 10px;
+    padding: 1px;
+    background-color: #FFF;
+    border: 1px solid #ccc;
+    box-shadow: 5px 5px 3px rgb(77, 74, 74);
+}
+
+
+
+
+
+
+
+
+
+
+
+.contact{
+    background-color: #252F31;
+    overflow: hidden;
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+.contact h2{
+    color: #fff;
+    margin-left: 40px;
+}
+.contact .info  {
+    width: 50%;
+    margin-right: 5%;
+    float: left;
+}
+.contact p{
+    color: #6A6E71;
+    margin-left: 40px;
+    line-height: 1.7;
+}
+.contact p strong{
+    color: #d1d6da;
+}
+.contact .form{
+width: 45%;
+float: right;
+}
+.contact .form label{
+   display: block;
+   color: #d1d6da;
+   margin: 10px 0;
+}
+.contact .form input[type="text"]{
+background-color: #4B5557;
+color: #FFF;
+padding: 10px;
+border: 0;
+width: 80%;
+margin-bottom: 10px;
+}
+.contact .form input[type="email"]{
+    background-color: #4B5557;
+    color: #FFF;
+    padding: 10px;
+    border: 0;
+    width: 80%;
+    margin-bottom: 10px;
+    }
+    .contact .form input[type="tel"]{
+        background-color: #4B5557;
+        color: #FFF;
+        padding: 10px;
+        border: 0;
+        width: 80%;
+        margin-bottom: 10px;
+        }
+        .contact .form textarea{
+            background-color: #4B5557;
+            color: #FFF;
+            padding: 10px;
+            border: 0;
+            width: 80%;
+            height: 300px;
+            margin-bottom: 10px;
+            }
+            .contact .form input[type="submit"]{
+                background-color: #191E22;
+                color: #FFf;
+                padding: 10px 20px;
+                border: 0;
+                margin-top: 10px;
+            }
+    
+
+
+
+
+
+
+
+
+
+.footer{
+    background-color: #191E22;
+    color: #252F31;
+    padding: 20px 0;
+    text-align: center;
+}
+.footer ul{
+    list-style: none;
+    padding-left: 0;
+    margin: 10px 0 0;
+}
+.footer ul li{
+    display: inline-block;
+}
+.footer ul li img{
+    width: 24px;
+}
+
+
+
